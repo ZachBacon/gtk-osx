@@ -275,7 +275,7 @@
   </autotools>
 
   <autotools id="librsvg" autogenargs="--disable-Bsymbolic">
-    <branch module="librsvg" branch="librsvg-2.50"/>
+    <branch module="librsvg" branch="2.40.17"/>
     <dependencies>
       <dep package="libcroco"/>
       <dep package="freetype"/>

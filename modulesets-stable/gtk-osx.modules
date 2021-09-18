@@ -366,8 +366,8 @@
   </autotools>
 
   <autotools id="librsvg" autogenargs="--disable-Bsymbolic">
-    <branch module="librsvg/2.51/librsvg-2.51.0.tar.xz" version="2.51.0"
-            hash="sha256:89d32e38445025e1b1d9af3dd9d3aeb9f6fce527aeecbecf38b369b34c80c038"/>
+    <branch module="librsvg/2.40/librsvg-2.40.17.tar.xz" version="2.40.17"
+            hash="sha256:e6f6c5cbecc405bb945c7cd15061276035ae3173bbb3bb25e8a916779c7f69cc"/>
     <dependencies>
       <dep package="libcroco"/>
       <dep package="freetype"/>
