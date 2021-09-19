@@ -36,7 +36,7 @@
 
   <!-- Rudely demands TeX to build documentation -->
   <autotools id="libnettle" autogen-sh="configure"
-             autogenargs="--disable-documentation --build=aarch64-apple-darwin">
+             autogenargs="--disable-documentation --build=aarch64-apple-darwin20.6.0">
     <branch repo="ftp.gnu.org" version="3.7.2"
             module="nettle/nettle-3.7.2.tar.gz"
             hash="sha256:8d2a604ef1cde4cd5fb77e422531ea25ad064679ff0adf956e78b3352e0ef162">
