@@ -116,7 +116,7 @@
     </dependencies>
   </autotools>
   
-  <meson id="libsecret" mesonargs="-Dvapi=disabled -Dgtk_doc=disabled">
+  <meson id="libsecret" mesonargs="-Dvapi=disabled -Dgtk_doc=false">
     <branch version="0.20.4"
             module="libsecret/0.20/libsecret-0.20.4.tar.xz"
             />
